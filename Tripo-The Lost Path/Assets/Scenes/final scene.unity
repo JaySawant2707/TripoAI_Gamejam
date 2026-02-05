@@ -152,7 +152,7 @@ TerrainCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 2
   m_TerrainData: {fileID: 15600000, guid: 826a6f608355aaf40b96a903b8bdf7d8, type: 2}
@@ -793,27 +793,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a0f5741ebfd4c1d4da16fbecac40cf9f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 67.21686
+      value: 50.580013
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0f5741ebfd4c1d4da16fbecac40cf9f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 67.21686
+      value: 50.580013
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0f5741ebfd4c1d4da16fbecac40cf9f, type: 3}
       propertyPath: m_LocalScale.z
-      value: 67.21686
+      value: 50.580013
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0f5741ebfd4c1d4da16fbecac40cf9f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 545.2587
+      value: 545.19
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0f5741ebfd4c1d4da16fbecac40cf9f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 18.9
+      value: 14.3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0f5741ebfd4c1d4da16fbecac40cf9f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 415.77988
+      value: 415.77
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0f5741ebfd4c1d4da16fbecac40cf9f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1572,7 +1572,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 51e5c7404f064614395d90cd0995ef73, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.08
+      value: 3.81
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 51e5c7404f064614395d90cd0995ef73, type: 3}
       propertyPath: m_LocalPosition.z
