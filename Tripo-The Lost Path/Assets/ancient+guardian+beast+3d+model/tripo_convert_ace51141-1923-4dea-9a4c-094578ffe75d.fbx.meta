@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9d578fd6e626d57428fa8e5d5c302b79
+guid: 52b1aa3e78947564f824e2893a414cf4
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,83 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Bark
-    second: {fileID: 2100000, guid: 7aea0234971967943ad9f94ae5501795, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Bark.001
-    second: {fileID: 2100000, guid: bbd02b497a98ec94c8d641ba248e0493, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Grass
-    second: {fileID: 2100000, guid: ebbc82ff9c375a7448d7e6db1d55f142, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Lamp
-    second: {fileID: 2100000, guid: 08e5ba0f8728e5a4cabfc608b1f54af4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Leaves
-    second: {fileID: 2100000, guid: ff1f29a6746cf6545a20a282819abb36, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Leaves.001
-    second: {fileID: 2100000, guid: 79429e95e3d43b94aa0b02c2fa29072d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Leaves.002
-    second: {fileID: 2100000, guid: 83bb5753d17c38e4888c57391051fb59, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Leaves.003
-    second: {fileID: 2100000, guid: 773b524d18025c547bf758fc155b4317, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Platform
-    second: {fileID: 2100000, guid: 3ebfb96470a71f24d9774debff15d74a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Rock
-    second: {fileID: 2100000, guid: e9685df1ff2d40e40a91cbe2d6fe6b09, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Torii
-    second: {fileID: 2100000, guid: e8fb24e13abd03944a51e88f4d2b8acc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: default
-    second: {fileID: 2100000, guid: a1e2a365f5c4a844d8b18b69cc5904b8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: default.001
-    second: {fileID: 2100000, guid: 4af6a8e2f3b96b04995e367e22ba6c31, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: stone01
-    second: {fileID: 2100000, guid: cdba81c04e66ec74db73a227c6045bc9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: stone02
-    second: {fileID: 2100000, guid: 0309761eeb9c925458a40662a3e72b16, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: stone03
-    second: {fileID: 2100000, guid: 718e24a62a224c346951a7a630340073, type: 2}
+      name: tripo_mat_ace51141
+    second: {fileID: 2100000, guid: 21b1bb8b24357e148853a6d0027a59bc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

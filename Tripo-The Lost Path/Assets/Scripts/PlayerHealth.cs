@@ -89,31 +89,31 @@ public class PlayerHealth : MonoBehaviour
 
         if (deathSound) AudioSource.PlayClipAtPoint(deathSound, transform.position);
 
-        //Invoke(nameof(Respawn), respawnDelay);
+        Invoke(nameof(Respawn), respawnDelay);
     }
 
-    // private void Respawn()
-    // {
-    //     Vector3 respawnPos = CheckpointManager.Instance.HasCheckpoint()
-    //         ? CheckpointManager.Instance.GetRespawnPosition()
-    //         : transform.position;
+    private void Respawn()
+    {
+        Vector3 respawnPos = CheckpointManager.Instance.HasCheckpoint()
+            ? CheckpointManager.Instance.GetRespawnPosition()
+            : transform.position;
 
-    //     CharacterController controller = GetComponent<CharacterController>();
-    //     if (controller != null)
-    //         controller.enabled = false;
+        CharacterController controller = GetComponent<CharacterController>();
+        if (controller != null)
+            controller.enabled = false;
 
-    //     TogglePlayerControl(true);
+        TogglePlayerControl(true);
 
-    //     transform.position = respawnPos;
+        transform.position = respawnPos;
 
-    //     if (controller != null)
-    //         controller.enabled = true;
+        if (controller != null)
+            controller.enabled = true;
 
-    //     CurrentHealth = maxHealth;
-    //     IsDead = false;
+        CurrentHealth = maxHealth;
+        IsDead = false;
 
-    //     Debug.Log("Player Respawned");
-    // }
+        Debug.Log("Player Respawned");
+    }
 
     void LowerPlayer()
     {
