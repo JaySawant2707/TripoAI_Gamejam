@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: cdbb40e11399e4a17882ada20a1b896a, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: e2341a9d03e86ec4290c72b1e22bbc7c, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -8221,6 +8221,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -4
       objectReference: {fileID: 0}
+    - target: {fileID: 767980881054218775, guid: 3917edefa3272954584c700262c235d7, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3045648522851083152, guid: 3917edefa3272954584c700262c235d7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.2000122
@@ -9767,7 +9771,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 6672
+  m_ColorTemperature: 4367
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
@@ -16376,8 +16380,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.667572, y: 1, z: 0.6797791}
-  m_Center: {x: -0.00016784668, y: 1.4612755e-12, z: 0.0015716555}
+  m_Size: {x: 0.553489, y: 1, z: 0.6009958}
+  m_Center: {x: 0.014224606, y: 1.8571616e-11, z: 0.040963363}
 --- !u!1001 &706599504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22187,7 +22191,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1db71d8615f543145b39c6450236e020, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 590
+      value: 584.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1db71d8615f543145b39c6450236e020, type: 3}
       propertyPath: m_LocalRotation.w
@@ -33628,8 +33632,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.667572, y: 1, z: 0.6797791}
-  m_Center: {x: -0.00016784668, y: -0.00000002980086, z: 0.0015754702}
+  m_Size: {x: 0.5798762, y: 0.99051225, z: 0.66254705}
+  m_Center: {x: 0.04368019, y: -0.0047439276, z: -0.0070405286}
 --- !u!1 &1451192841
 GameObject:
   m_ObjectHideFlags: 0
@@ -40271,8 +40275,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.667572, y: 1, z: 0.6797791}
-  m_Center: {x: -0.00016784668, y: 0.000000044704944, z: 0.0015640261}
+  m_Size: {x: 0.667572, y: 1.0042897, z: 0.6797791}
+  m_Center: {x: -0.00016784557, y: 0.0021451248, z: 0.001564024}
 --- !u!1 &1764626737
 GameObject:
   m_ObjectHideFlags: 0
