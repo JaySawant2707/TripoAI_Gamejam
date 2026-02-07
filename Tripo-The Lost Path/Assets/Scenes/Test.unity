@@ -541,8 +541,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2385978093250860502, guid: 3af7fbf605000f24ba1a9fdb71e151b5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.2472
+      objectReference: {fileID: 0}
+    - target: {fileID: 2385978093250860502, guid: 3af7fbf605000f24ba1a9fdb71e151b5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.7416
+      objectReference: {fileID: 0}
+    - target: {fileID: 2385978093250860502, guid: 3af7fbf605000f24ba1a9fdb71e151b5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.3516
+      value: 14.8
       objectReference: {fileID: 0}
     - target: {fileID: 2385978093250860502, guid: 3af7fbf605000f24ba1a9fdb71e151b5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -558,15 +566,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2385978093250860502, guid: 3af7fbf605000f24ba1a9fdb71e151b5, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2385978093250860502, guid: 3af7fbf605000f24ba1a9fdb71e151b5, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2385978093250860502, guid: 3af7fbf605000f24ba1a9fdb71e151b5, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2385978093250860502, guid: 3af7fbf605000f24ba1a9fdb71e151b5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -583,6 +591,10 @@ PrefabInstance:
     - target: {fileID: 7577652403852407542, guid: 3af7fbf605000f24ba1a9fdb71e151b5, type: 3}
       propertyPath: m_Name
       value: Moving Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 7577652403852407542, guid: 3af7fbf605000f24ba1a9fdb71e151b5, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -998,10 +1010,10 @@ SceneRoots:
   - {fileID: 293199867}
   - {fileID: 8716336469960472164}
   - {fileID: 7235158799704552324}
-  - {fileID: 884918865083787490}
   - {fileID: 4317333116382217820}
   - {fileID: 8145531222899160826}
   - {fileID: 6530685615783559012}
   - {fileID: 337093149}
   - {fileID: 7071316443389506762}
   - {fileID: 5411929514070697056}
+  - {fileID: 884918865083787490}
