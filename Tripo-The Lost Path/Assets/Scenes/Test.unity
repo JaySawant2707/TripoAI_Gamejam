@@ -708,6 +708,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1291730853543798052, guid: 3af7fbf605000f24ba1a9fdb71e151b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 1291730853543798052, guid: 3af7fbf605000f24ba1a9fdb71e151b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.21
+      objectReference: {fileID: 0}
     - target: {fileID: 2385978093250860502, guid: 3af7fbf605000f24ba1a9fdb71e151b5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.3516
@@ -748,9 +756,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5334838356648387018, guid: 3af7fbf605000f24ba1a9fdb71e151b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07
+      objectReference: {fileID: 0}
     - target: {fileID: 7577652403852407542, guid: 3af7fbf605000f24ba1a9fdb71e151b5, type: 3}
       propertyPath: m_Name
       value: Moving Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157635913261694819, guid: 3af7fbf605000f24ba1a9fdb71e151b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1107,6 +1123,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 668482790468227553, guid: 3917edefa3272954584c700262c235d7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.19999981
+      objectReference: {fileID: 0}
+    - target: {fileID: 668482790468227553, guid: 3917edefa3272954584c700262c235d7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3045648522851083152, guid: 3917edefa3272954584c700262c235d7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.19999981
+      objectReference: {fileID: 0}
+    - target: {fileID: 3045648522851083152, guid: 3917edefa3272954584c700262c235d7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 4791406011070648309, guid: 3917edefa3272954584c700262c235d7, type: 3}
       propertyPath: m_Name
       value: NestedParentArmature
