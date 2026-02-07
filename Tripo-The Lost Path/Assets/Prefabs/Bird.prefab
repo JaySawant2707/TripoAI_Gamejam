@@ -146,8 +146,8 @@ MonoBehaviour:
   - {fileID: 3895025428888483765}
   moveSpeed: 3
   reachDistance: 0.1
-  loop: 0
-  pingPong: 1
+  loop: 1
+  pingPong: 0
   canMove: 1
   faceForward: 1
   rotationSpeed: 5
