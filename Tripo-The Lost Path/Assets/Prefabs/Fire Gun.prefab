@@ -113,7 +113,7 @@ MonoBehaviour:
   particleSys: {fileID: 4642703314187725124}
   fireLight: {fileID: 1826601705900770091}
   fireLightIntensity: 8
-  lightFadeDuration: 0.15
+  lightFadeDuration: 1
 --- !u!82 &7174686629607532184
 AudioSource:
   m_ObjectHideFlags: 0
