@@ -112,6 +112,8 @@ public class PlayerHealth : MonoBehaviour
         CurrentHealth = maxHealth;
         IsDead = false;
 
+        GetComponent<PlayerSwimController>().ExitSwim();
+
         Debug.Log("Player Respawned");
     }
 

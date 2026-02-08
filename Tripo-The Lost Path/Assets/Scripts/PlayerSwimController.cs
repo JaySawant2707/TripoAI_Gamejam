@@ -84,7 +84,7 @@ public class PlayerSwimController : MonoBehaviour
             animator.SetBool("IsSwimming", true);
     }
 
-    private void ExitSwim()
+    public void ExitSwim()
     {
         if (!IsSwimming) return;
 
