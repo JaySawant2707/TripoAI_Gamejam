@@ -13906,6 +13906,95 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5f36b57d675b1444cb2203b7a6cac6cb, type: 3}
   m_PrefabInstance: {fileID: 1003539959}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &305860215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 305860218}
+  - component: {fileID: 305860217}
+  - component: {fileID: 305860216}
+  m_Layer: 0
+  m_Name: Plane (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &305860216
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305860215}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -4747284245288740970, guid: c88eebee448ff934ab08c1cb0c60d2ee, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &305860217
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305860215}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &305860218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305860215}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6695782, y: -0, z: -0, w: 0.74274164}
+  m_LocalPosition: {x: 514.1407, y: 0.69, z: 485.36}
+  m_LocalScale: {x: 4.8891315, y: 11.795544, z: 0.20288679}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 84.069, y: 0, z: 0}
 --- !u!4 &308412046 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2094237962658820877, guid: 231230b8fe03cfb47991c6eedf83af70, type: 3}
@@ -60725,12 +60814,11 @@ PrefabInstance:
     - target: {fileID: 667452958257101459, guid: bd5091a981b55ba40a2a41c7ff92dd2b, type: 3}
       propertyPath: conversation.Array.data[0].clip
       value: 
-      objectReference: {fileID: 8300000, guid: de2ee1d566a033c4baac37c4a2e0afcd, type: 3}
+      objectReference: {fileID: 8300000, guid: ace9a03dd4fb05b4cab9e677f369a883, type: 3}
     - target: {fileID: 667452958257101459, guid: bd5091a981b55ba40a2a41c7ff92dd2b, type: 3}
       propertyPath: conversation.Array.data[0].subtitle
-      value: After crossing the Brahma Kund, you will have to pass through some thorny
-        patches, and you will be able to see the gigantic statue of Mahadev from
-        very close proximity.
+      value: This is Lord Ganesha's tooth; take it. And the snake you see on top
+        of the ShivaLing is the protector of that tooth.
       objectReference: {fileID: 0}
     - target: {fileID: 962437967081305661, guid: bd5091a981b55ba40a2a41c7ff92dd2b, type: 3}
       propertyPath: m_LocalScale.x
@@ -60738,11 +60826,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 962437967081305661, guid: bd5091a981b55ba40a2a41c7ff92dd2b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.7604
+      value: 10.20416
       objectReference: {fileID: 0}
     - target: {fileID: 962437967081305661, guid: bd5091a981b55ba40a2a41c7ff92dd2b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.26116
+      value: 0.740728
       objectReference: {fileID: 0}
     - target: {fileID: 962437967081305661, guid: bd5091a981b55ba40a2a41c7ff92dd2b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -60754,7 +60842,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 962437967081305661, guid: bd5091a981b55ba40a2a41c7ff92dd2b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 489.4
+      value: 502.2
       objectReference: {fileID: 0}
     - target: {fileID: 962437967081305661, guid: bd5091a981b55ba40a2a41c7ff92dd2b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -93381,3 +93469,4 @@ SceneRoots:
   - {fileID: 325001378}
   - {fileID: 653836425}
   - {fileID: 1734262025}
+  - {fileID: 305860218}
