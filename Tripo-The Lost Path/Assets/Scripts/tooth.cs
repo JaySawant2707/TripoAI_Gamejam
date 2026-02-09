@@ -2,7 +2,7 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 
-public class Lund : MonoBehaviour
+public class Tooth : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI orgasm;
 
