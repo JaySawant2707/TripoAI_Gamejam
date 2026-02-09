@@ -4668,7 +4668,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &93779103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4685,7 +4685,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 9
+  m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
@@ -4716,7 +4716,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93779102}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.002489561, y: 0.2519714, z: 0.2999339, w: 0.9200782}
+  m_LocalRotation: {x: -0.0024895614, y: 0.2519714, z: 0.29993394, w: 0.92007816}
   m_LocalPosition: {x: 891.1, y: 155.5, z: 603.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4734,7 +4734,7 @@ Animator:
   m_GameObject: {fileID: 93779102}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9886c5182a72e1941ba291e7f6af127d, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -9564,12 +9564,6 @@ PlayableDirector:
     value: {fileID: 672913116}
   - key: {fileID: 7890066335940663422, guid: 19d9b079f659488498dd302c27d4ff21, type: 2}
     value: {fileID: 222241974}
-  - key: {fileID: -5725406675708599940, guid: 19d9b079f659488498dd302c27d4ff21, type: 2}
-    value: {fileID: 93779102}
-  - key: {fileID: 8320989206651061425, guid: 19d9b079f659488498dd302c27d4ff21, type: 2}
-    value: {fileID: 1550333587}
-  - key: {fileID: -1181073387360466131, guid: 19d9b079f659488498dd302c27d4ff21, type: 2}
-    value: {fileID: 827548346}
   m_ExposedReferences:
     m_References:
     - 9abfb4f5f57b39e4ba1009f32a7ba501: {fileID: 93779103}
@@ -16913,35 +16907,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3045648522851083152, guid: 3917edefa3272954584c700262c235d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 236.89099
+      value: 377.8
       objectReference: {fileID: 0}
     - target: {fileID: 3045648522851083152, guid: 3917edefa3272954584c700262c235d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 53.589058
+      value: 129.702
       objectReference: {fileID: 0}
     - target: {fileID: 3045648522851083152, guid: 3917edefa3272954584c700262c235d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 329.48975
+      value: 268.05
       objectReference: {fileID: 0}
     - target: {fileID: 3045648522851083152, guid: 3917edefa3272954584c700262c235d7, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.21357213
       objectReference: {fileID: 0}
     - target: {fileID: 3045648522851083152, guid: 3917edefa3272954584c700262c235d7, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.053662416
       objectReference: {fileID: 0}
     - target: {fileID: 3045648522851083152, guid: 3917edefa3272954584c700262c235d7, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.94604635
       objectReference: {fileID: 0}
     - target: {fileID: 3045648522851083152, guid: 3917edefa3272954584c700262c235d7, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.23770489
       objectReference: {fileID: 0}
     - target: {fileID: 3045648522851083159, guid: 3917edefa3272954584c700262c235d7, type: 3}
       propertyPath: field of view
-      value: 40
+      value: 60.000004
       objectReference: {fileID: 0}
     - target: {fileID: 3045648522851083159, guid: 3917edefa3272954584c700262c235d7, type: 3}
       propertyPath: far clip plane
@@ -36500,7 +36494,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &827548347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36517,7 +36511,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 9
+  m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
@@ -36548,7 +36542,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 827548346}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.1401031, y: 0.6715325, z: 0.1486027, w: 0.7122728}
+  m_LocalRotation: {x: -0.14010307, y: 0.67153245, z: 0.14860271, w: 0.7122728}
   m_LocalPosition: {x: 997, y: 55, z: 552.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -36566,7 +36560,7 @@ Animator:
   m_GameObject: {fileID: 827548346}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0c64846f65b47dd4e815c41a64fac69d, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -69008,7 +69002,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1550333588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69025,7 +69019,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 9
+  m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
@@ -69056,14 +69050,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550333587}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.07049256, y: 0.9619658, z: 0.161645, w: 0.2086229}
-  m_LocalPosition: {x: 899.88, y: 133.31, z: 492.16}
+  m_LocalRotation: {x: 0.053662416, y: 0.94604635, z: 0.23770489, w: 0.21357213}
+  m_LocalPosition: {x: 887.8, y: 130.9, z: 496.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 735780559}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -16.355, y: 153.765, z: 12.218}
+  m_LocalEulerAnglesHint: {x: -25.267, y: 151.637, z: 12.977}
 --- !u!95 &1550333590
 Animator:
   serializedVersion: 7
@@ -69074,7 +69068,7 @@ Animator:
   m_GameObject: {fileID: 1550333587}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 622e02c56ea326f459b337aefaabd4e3, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
