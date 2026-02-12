@@ -8,6 +8,8 @@ public class PlaceIllusion : MonoBehaviour
     [SerializeField] TextMeshProUGUI interactionText;
     [SerializeField] GameObject tooth;
 
+    private bool isToothPlaced = false;
+
     void Start()
     {
         tooth.SetActive(false);
@@ -16,12 +18,13 @@ public class PlaceIllusion : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && !isToothPlaced)
             StartCoroutine(PlacingJugad());
     }
 
     IEnumerator PlacingJugad()
     {
+        isToothPlaced = true;
         interactionText.gameObject.SetActive(true);
         interactionText.text = "Placing Tooth...";
         yield return new WaitForSeconds(1.5f);
